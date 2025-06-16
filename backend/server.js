@@ -8,7 +8,7 @@ const jwt=require('jsonwebtoken')
 
 const app=express()
 app.use(cors({
-  origin: 'http://localhost:3000',  // ✅ allow only your frontend
+  origin: 'https://fashion-chat-tau.vercel.app/',  // ✅ allow only your frontend
   credentials: true                 // ✅ allow cookies/auth headers
 }));
 app.use(express.json())
